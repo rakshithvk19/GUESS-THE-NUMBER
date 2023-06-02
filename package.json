@@ -1,0 +1,12 @@
+{
+  "name": "guess-the-number",
+  "version": "1.0.0",
+  "description": "Guess the number game",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "RakshithRajkumar",
+  "license": "ISC"
+}
