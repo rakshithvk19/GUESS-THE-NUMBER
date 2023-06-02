@@ -6,7 +6,6 @@ const controlCheckNumber = function () {
   const guessNumber = view.fetchGuessValue();
   const guessNumberValidation = model.validateGuessNumber(guessNumber);
   view.renderView(guessNumberValidation);
-  console.log('hi');
 };
 
 //Controls again button.
